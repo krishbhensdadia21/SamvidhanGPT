@@ -1,4 +1,4 @@
-# 🌟 SamvidhanGPT - A Chatbot on the Indian Constitution Integrated into a Website
+# SamvidhanGPT - A Chatbot on the Indian Constitution Integrated into a Website
 
 **SamvidhanGPT** is an informative chatbot designed to answer queries about the Indian Constitution. This project integrates the chatbot into a **fully functional website**, offering an interactive and user-friendly experience. The chatbot fetches responses from a CSV file, without the need for external API calls, making it simple and efficient.
 
