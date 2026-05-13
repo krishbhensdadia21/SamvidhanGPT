@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Indian Constitution: Explore with AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+  </head>
+  <body>
+    <header class="dmain">
+      <div class="logo">Indian Constitution</div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#facts">Facts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br><br><h5></h5>
+    <marquee scrollamount="20"><br>Explore the Indian Constitution and interact with our chatbot!</marquee>
+    <section class="about" id="about">
+      <h2>About</h2>
+      <ul style="list-style-type: none; padding-left: 0;">
+          <li>📜 The Constitution of India is the supreme law of the land.</li>
+          <li>🕊️ It ensures justice, liberty, equality, and fraternity.</li>
+          <li>📅 Adopted on January 26, 1950, it replaced the Government of India Act 1935.</li>
+          <li>👥 It establishes India as a sovereign, socialist, secular, and democratic republic.</li>
+          <li>🔍 The Constitution is a living document that evolves with time.</li>
+      </ul>
+  </section>
+  <section class="history" id="history">
+      <h2>History 📚</h2>
+      <ul style="list-style-type: none; padding-left: 0;">
+          <li>⚖️ The drafting of the Constitution began in 1946 and took nearly 3 years.</li>
+          <li>🗣️ Dr. B.R. Ambedkar is known as the Father of the Indian Constitution.</li>
+          <li>🏛️ The Constituent Assembly was established to frame the Constitution.</li>
+          <li>🌍 It was influenced by various global constitutions, including the US, UK, and Ireland.</li>
+          <li>📖 The Constitution originally had 395 articles, now it has 448.</li>
+      </ul>
+  </section>
+  <section class="facts" id="facts">
+      <h2>Facts 💡</h2>
+      <ul style="list-style-type: none; padding-left: 0;">
+          <li>🎉 January 26 is celebrated as Republic Day in India.</li>
+          <li>🔑 The Constitution provides fundamental rights to all citizens.</li>
+          <li>🌈 It includes provisions for affirmative action for marginalized communities.</li>
+          <li>📊 The Constitution can be amended to adapt to changing needs.</li>
+          <li>🚀 It aims to create a welfare state through directive principles of state policy.</li>
+      </ul>
+  </section>
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>Samvidhan GPT</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Hi there! <br>How can I help you today?</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+    </div>
+    <footer>
+  <br>
+  
+  <br>
+Note: This website is for educational purposes only and is not an official government site
+  <br><br>
+</footer>
+
+  </body>
+</html>
