@@ -54,3 +54,21 @@
 - 📡 Optimized Groq API responses with contextual prompting  
 - 🛠 Developed scalable Flask backend with structured routing logic  
 - 🎯 Created educational AI tool for students, citizens, and exam aspirants
+
+## Project Structure
+
+SamvidhanGPT/
+│── app.py
+│── final.json
+│── documents.json
+│── documents_meta.json
+│── embed.py
+│── constitution.index
+│── templates/
+│   └── index.html
+│── static/
+│   └── Constitution.jpg
+│   └──  styles.css
+│   └── script.js
+│── .env
+│── requirements.txt
