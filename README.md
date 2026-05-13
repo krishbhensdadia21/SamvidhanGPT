@@ -1,17 +1,56 @@
-# SamvidhanGPT - A Chatbot on the Indian Constitution Integrated into a Website
+# SamvidhanGPT – AI-Powered Indian Constitution Assistant
 
-*SamvidhanGPT* is an informative chatbot designed to answer queries about the Indian Constitution. This project integrates the chatbot into a *fully functional website*, offering an interactive and user-friendly experience. The chatbot fetches responses from a CSV file, without the need for external API calls, making it simple and efficient.
+**SamvidhanGPT** is an intelligent and modern AI-powered web application designed to help users explore and understand the **Constitution of India** through conversational interaction. Built using **Python, Flask, HTML, CSS, JavaScript, FAISS Vector Search, Sentence Transformers and Groq LLM API**, the platform delivers fast, context-aware, and accurate constitutional answers using Retrieval-Augmented Generation (RAG).
 
-## 🛠 Features
+## Features
 
-- *Website Integration*: The chatbot is seamlessly integrated into a professional website layout, making it easy for users to interact with.
-- *CSV-Based Responses*: Fetches answers directly from a pre-defined CSV file for quick and relevant responses.
-- *User-Friendly UI*: Clean, intuitive, and responsive user interface built using HTML, CSS, and JavaScript.
-- *Advanced HTML Layout*: Incorporates modern HTML tags like <article>, <section>, <summary>, and <marquee> for an enriched browsing experience.
-- *Chatbot Button*: Includes a clickable chatbot button, providing easy access to the chatbot interface for user queries.
+- 🤖 AI-powered chatbot focused exclusively on the Indian Constitution  
+- 📜 Covers Articles, Schedules, Amendments, Preamble, Rights & Duties  
+- 🧠 Smart topic guard to block non-constitutional queries  
+- 🔍 Semantic search using **FAISS vector database**  
+- 📚 Context-aware Retrieval-Augmented Generation (RAG) pipeline  
+- ⚡ Fast responses powered by **Groq LLM API**  
+- 🏛 Direct lookup for Articles, Schedules, and Preamble queries  
+- 🧾 Amendment notes integration for precise legal context  
+- 💬 Interactive modern chatbot UI with responsive design  
+- 🔄 Multi-stage fallback retrieval for better accuracy  
 
-## 💻 Tech Stack
+## Tech Stack
 
-- *Backend*: Python, Flask
-- *Frontend*: HTML, CSS, JavaScript
-- *Data Storage*: CSV file for storing chatbot responses
+- *Python*  
+- *Flask*  
+- *HTML5*  
+- *CSS3*  
+- *JavaScript*  
+- *Groq API*  
+- *FAISS Vector Database*  
+- *Sentence Transformers*  
+- *NumPy*  
+- *JSON Dataset*  
+
+## Core Functionalities
+
+- **Topic Guard System** – Detects whether the question is related to the Indian Constitution  
+- **Article Lookup Engine** – Instantly fetches specific constitutional Articles  
+- **Schedule Search Module** – Retrieves information from all 12 Schedules  
+- **Preamble Query Support** – Directly answers questions related to the Preamble  
+- **Semantic Search (FAISS)** – Finds relevant constitutional content using embeddings  
+- **Amendment Tracking** – Includes amendment notes wherever applicable  
+- **Conversational AI** – Converts retrieved legal context into simple understandable answers  
+- **Fallback Retrieval Pipeline** – Combines direct search + semantic search for best results  
+
+## API Endpoints
+
+- **/** – Serves the frontend web interface  
+- **/get-response** – Handles chatbot user queries and returns AI responses  
+- **/static/** – Serves CSS, JavaScript, and assets  
+
+## Project Highlights
+
+- 🚀 Built a complete Constitution-focused AI assistant from scratch  
+- ⚖️ Combined LLM intelligence with legal document retrieval  
+- 🔍 Implemented FAISS semantic vector search for precision results  
+- 🧩 Added constitutional topic filtering for domain-specific answers  
+- 📡 Optimized Groq API responses with contextual prompting  
+- 🛠 Developed scalable Flask backend with structured routing logic  
+- 🎯 Created educational AI tool for students, citizens, and exam aspirants
