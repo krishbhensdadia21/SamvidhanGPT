@@ -54,3 +54,51 @@
 - 📡 Optimized Groq API responses with contextual prompting  
 - 🛠 Developed scalable Flask backend with structured routing logic  
 - 🎯 Created educational AI tool for students, citizens, and exam aspirants
+
+## Project Structure
+
+ecoview-ai/
+├── backend/
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── schemas.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── dashboard.py
+│   │   ├── marketplace.py
+│   │   └── scan.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── calculator_service.py
+│   │   ├── clear_scan_results.py
+│   │   ├── firebase_service.py
+│   │   └── groq_service.py
+│   └── main.py
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── CarbonSavings.jsx
+│   │   │   ├── HealthScore.jsx
+│   │   │   ├── Marketplace.jsx
+│   │   │   ├── MaterialRecovery.jsx
+│   │   │   └── Navbar.jsx
+│   │   ├── pages/
+│   │   │   ├── GovDashboard.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Results.jsx
+│   │   │   └── Scan.jsx
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── img/
+│   ├── image_1.png
+│   ├── image_2.png
+│   ├── image_3.png
+│   └── image_4.png
+├── .gitignore
+└── README.md
